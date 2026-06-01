@@ -1,74 +1,66 @@
 # Sowad Al-Mughni
 
-Founder of [Kitalon Labs](https://kitalonlabs.com), an AI-native product studio. Sixteen products shipped across SaaS, open source, browser extensions, and mobile from Dhaka for global markets.
+I run [Kitalon Labs](https://kitalonlabs.com), a small product studio in Dhaka building software for global markets. Sixteen products shipped so far across SaaS, open source, browser extensions, and Android — most of them solo or close to it.
 
-## Currently building
+I spent twelve years building products before LLMs were any good at this. Now I build with them.
 
-### Flagship SaaS
+## What I'm focused on right now
 
-- **GovProcurementAI**: AI-native RFP compliance engine for the $80B US government procurement market. Primary YC S26 application vehicle. Live at [govprocurementai.com](https://govprocurementai.com).
-- **Restaurant Phone AI**: 24/7 voice agent for restaurant order-taking with POS integration. Live at [restaurantphoneai.com](https://restaurantphoneai.com).
-- **Covena**: AI-native EU e-commerce compliance monitoring for DSA, GPSR, and adjacent regulations. Live at [covena.xyz](https://covena.xyz).
-- **ReconcileAI**: Automated bank reconciliation with Plaid integration. In design partner mode.
+**[GovProcurementAI](https://govprocurementai.com)** is where most of my attention goes. It reads US government RFPs and checks proposals against them, line by line. The US procurement market is roughly $80B and most of the compliance work is still done by hand — that's the gap. This is the product I'm taking through YC (S26).
 
-### Open source
+A few others I'm actively shipping:
 
-- **Aether**: Type-safe language for LLM orchestration. Rust, Axum, Tokio, DAG-based execution.
-- **NFTicket Protocol**: Anti-scalping event ticketing on blockchain. TypeScript, Solidity, Hardhat.
-- **RWA-Studio**. Real-world asset tokenization in five clicks. Solidity, OpenZeppelin.
-- **zkIPFS-Proof**. Zero-knowledge proofs for IPFS data privacy. Rust, Risc0 ZK-VM.
+- **[Restaurant Phone AI](https://restaurantphoneai.com)** — a voice agent that answers the phone and takes orders around the clock, wired into the POS.
+- **[Covena](https://covena.xyz)** — keeps tabs on EU e-commerce regulation (DSA, GPSR, and the rest) so sellers don't have to track it by hand.
+- **ReconcileAI** — bank reconciliation on top of Plaid. Still in design-partner mode while I work out where it earns its keep.
 
-### Enterprise-adjacent browser extensions
+## Open source
 
-- **QuoteSweep**: Pre-fills five commercial P&C insurance carrier portals from a single risk profile. WXT, React 19, Cloudflare Workers, Neon Postgres.
-- **POA Architect**: AI-guided Amazon seller reinstatement appeals.
-- **OneReply**: AI email reply assistant inside Gmail.
-- **JobSafe**: AI job scam detector for LinkedIn, Indeed, Glassdoor.
+Things I build mostly because I want them to exist:
 
-### Mobile
+- **Aether** — a type-safe language for orchestrating LLMs, with DAG-based execution. Rust, Axum, Tokio.
+- **NFTicket Protocol** — event ticketing that's hard to scalp. TypeScript, Solidity, Hardhat.
+- **RWA-Studio** — tokenize a real-world asset in about five clicks. Solidity, OpenZeppelin.
+- **zkIPFS-Proof** — zero-knowledge proofs for keeping IPFS data private. Rust, on the Risc0 zkVM.
 
-Four Android apps shipping across photo editing, conversions, subscription tracking, and document scanning. Kotlin, Jetpack Compose, Hilt, Room.
+## Browser extensions
 
-## Tech stack
+Small tools that live inside someone else's workflow:
 
-**Languages:** Python, TypeScript, Rust, Kotlin, Solidity, C#, JavaScript, SQL
+- **QuoteSweep** — pre-fills five commercial P&C insurance portals from a single risk profile. WXT, React 19, Cloudflare Workers, Neon.
+- **POA Architect** — walks Amazon sellers through reinstatement appeals.
+- **OneReply** — drafts email replies inside Gmail.
+- **JobSafe** — flags job scams on LinkedIn, Indeed, and Glassdoor.
 
-**AI:** LangChain, OpenAI, Anthropic, Gemini, MediaPipe, TFLite, ONNX Runtime, Transformers.js, pgvector, ChromaDB
+## Mobile
 
-**Backend:** FastAPI, Flask, NestJS, Hono, Axum, Cloudflare Workers, AWS Lambda
+Four Android apps in the store — photo editing, unit conversions, subscription tracking, document scanning. All Kotlin, Jetpack Compose, Hilt, Room.
 
-**Frontend:** Next.js 15, React 19, Jetpack Compose, WXT (Manifest V3)
+## Tools I reach for
 
-**Data:** PostgreSQL, Neon, Drizzle, Redis, SQLite, Firebase
+Python, TypeScript, Rust, Kotlin, Solidity, C#, SQL. FastAPI and NestJS on the backend, Next.js 15 and React 19 up front. Postgres (usually Neon, with Drizzle), plus Redis and SQLite. LangChain and the usual model APIs — OpenAI, Anthropic, Gemini — and on-device inference with MediaPipe, TFLite, and ONNX when something needs to run locally.
 
-**Web3:** Solidity, Hardhat, OpenZeppelin, Risc0
+## Beyond Kitalon
 
-## Current roles
+- **Interim CEO at Uddom** (Oak Network), an a16z-backed Kickstarter subsidiary — since May 2025.
+- **AI & technology consultant at LEAD Academy** — fundraising, partnerships, and AI integration. I've written white papers on AI adoption across Bangladeshi government ministries, and co-authored one on stablecoin infrastructure for Bangladesh.
+- **Voice2Policy** (2024–25) — a paid engagement building civic-tech AI for federal policy analysis. Fine-tuned deBERTa-v2 on SageMaker; shipped on NestJS and Next.js.
 
-- Founder, **Kitalon Labs** (Jan 2025 to present)
-- Interim CEO, **Uddom** under Oak Network, an Andreessen Horowitz-funded Kickstarter subsidiary (formerly Creative Crowdfunding Protocol) (May 2025 to present)
-- AI & Technology Consultant, **LEAD Academy** (April 2025 to present)
-  - Lead fundraising, partnerships, AI integration, and SOP development. Authored white papers on AI implementation across Bangladesh government ministries. Co-authored a stablecoin infrastructure white paper for Bangladesh.
+## Before any of this
 
-## Selected client work
+A few things from the pre-AI years I'm still proud of:
 
-- **Voice2Policy** (2024-2025): Civic tech AI for federal policy analysis. Fine-tuned deBERTa-v2 on AWS SageMaker for policy text analysis. Stack: NestJS, Next.js, AWS SageMaker. Delivered as a paid client engagement.
-
-## Track record before AI
-
-Twelve years shipping products before the AI era.
-
-- Pioneered **PODOKKHEP**, Bangladesh's first fully customized digital classroom platform, at REAPRA-backed Venturas. Lifted student comprehension 25%.
-- Launched **JANO KI**, a mobile learning app reaching 10,000+ students across 70 institutions.
-- Account Manager and Product Owner at **IMpulse** for Pulselinks ERP: 60-day deployment cut, 330% outbound sales lift, 21% revenue lift from partners.
-- Co-founder of **Enlightli Inc.** Won 1st place at the 2015 PCH Toronto Hardware Hackathon. Press coverage in [BetaKit](https://betakit.com) and [BrainStation](https://brainstation.io).
-- AIPMM Certified Product Manager (2017).
+- Built **PODOKKHEP**, Bangladesh's first fully custom digital classroom, at REAPRA-backed Venturas. Comprehension scores went up about 25%.
+- Launched **JANO KI**, a learning app that reached 10,000+ students across 70 institutions.
+- Ran the Pulselinks ERP account at IMpulse — cut deployment time by 60 days and grew outbound sales 330%.
+- Co-founded **Enlightli**, which took first at the 2015 PCH Toronto hardware hackathon (write-ups in BetaKit and BrainStation).
+- AIPMM Certified Product Manager, 2017.
 
 ## Find me
 
-- Web: [kitalonlabs.com](https://kitalonlabs.com)
-- LinkedIn: [linkedin.com/in/sowadalmughni](https://linkedin.com/in/sowadalmughni)
-- Email: sowadalmughni@gmail.com
+- [kitalonlabs.com](https://kitalonlabs.com)
+- [linkedin.com/in/sowadalmughni](https://linkedin.com/in/sowadalmughni)
+- sowad.al.mughni@gmail.com
 
 ---
 
