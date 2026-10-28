@@ -28,9 +28,9 @@ Things I build mostly because I want them to exist:
 Small tools that live inside someone else's workflow:
 
 - **QuoteSweep** — pre-fills five commercial P&C insurance portals from a single risk profile. WXT, React 19, Cloudflare Workers, Neon.
-- **POA Architect** — walks Amazon sellers through reinstatement appeals.
-- **OneReply** — drafts email replies inside Gmail.
-- **JobSafe** — flags job scams on LinkedIn, Indeed, and Glassdoor.
+- **[POA Architect](https://chromewebstore.google.com/detail/poa-architect/kmjbpdmhihmpjdekkngeebmginokofdn?authuser=0&hl=en)** — walks Amazon sellers through reinstatement appeals.
+- **[OneReply — AI Email Replies for Gmail](https://chromewebstore.google.com/detail/onereply-%E2%80%94-ai-email-repli/noiajpemkfbhgghgpfafomdiahlmlkci?authuser=0&hl=en)** — drafts email replies inside Gmail.
+- **[JobSafe](https://chromewebstore.google.com/detail/jobsafe/kefmohdijppkijhddolldplkdpcoidkc?authuser=0&hl=en)** — flags job scams on LinkedIn, Indeed, and Glassdoor.
 
 ## Mobile
 
