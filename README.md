@@ -1,33 +1,33 @@
 # Sowad Al-Mughni
 
-I run [Kitalon Labs](https://kitalonlabs.com), a small product studio in Dhaka building software for global markets. Sixteen products shipped so far across SaaS, open source, browser extensions, and Android — most of them solo or close to it.
+I run [Kitalon Labs](https://kitalonlabs.com), a small product studio in Dhaka building software for global markets. Sixteen products shipped so far across SaaS, open source, browser extensions, and Android — all of them solo.
 
 I spent twelve years building products before LLMs were any good at this. Now I build with them.
 
 ## What I'm focused on right now
 
-**[GovProcurementAI](https://govprocurementai.com)** is where most of my attention goes. It reads US government RFPs and checks proposals against them, line by line. The US procurement market is roughly $80B and most of the compliance work is still done by hand — that's the gap. This is the product I'm taking through YC (S26).
+**[GovProcurementAI](https://govprocurementai.com)** is where most of my attention goes. It reads US government RFPs and checks proposals against them, line by line. The US procurement market is roughly $80B and most of the compliance work is still done by hand — that's the gap.
 
 A few others I'm actively shipping:
 
 - **[Restaurant Phone AI](https://restaurantphoneai.com)** — a voice agent that answers the phone and takes orders around the clock, wired into the POS.
 - **[Covena](https://covena.xyz)** — keeps tabs on EU e-commerce regulation (DSA, GPSR, and the rest) so sellers don't have to track it by hand.
-- **ReconcileAI** — bank reconciliation on top of Plaid. Still in design-partner mode while I work out where it earns its keep.
+- **[ReconcileAI](http://174.138.45.139:8080/)** — bank reconciliation on top of Plaid. Still in design-partner mode while I work out where it earns its keep.
 
 ## Open source
 
 Things I build mostly because I want them to exist:
 
-- **Aether** — a type-safe language for orchestrating LLMs, with DAG-based execution. Rust, Axum, Tokio.
-- **NFTicket Protocol** — event ticketing that's hard to scalp. TypeScript, Solidity, Hardhat.
-- **RWA-Studio** — tokenize a real-world asset in about five clicks. Solidity, OpenZeppelin.
-- **zkIPFS-Proof** — zero-knowledge proofs for keeping IPFS data private. Rust, on the Risc0 zkVM.
+- **[Aether](https://github.com/sowadalmughni/aether-lang)** — a type-safe language for orchestrating LLMs, with DAG-based execution. Rust, Axum, Tokio.
+- **[NFTicket Protocol](https://github.com/sowadalmughni/nfticket-protocol)** — event ticketing that's hard to scalp. TypeScript, Solidity, Hardhat.
+- **[RWA-Studio](https://github.com/sowadalmughni/rwa-studio)** — tokenize a real-world asset in about five clicks. Solidity, OpenZeppelin.
+- **[zkIPFS-Proof](https://github.com/sowadalmughni/zkipfs-proof)** — zero-knowledge proofs for keeping IPFS data private. Rust, on the Risc0 zkVM.
 
 ## Browser extensions
 
 Small tools that live inside someone else's workflow:
 
-- **QuoteSweep** — pre-fills five commercial P&C insurance portals from a single risk profile. WXT, React 19, Cloudflare Workers, Neon.
+- **[QuoteSweep](https://chromewebstore.google.com/detail/quotesweep/lpmdpoalmclpfagkmkdijhkklcolnmcf)** — pre-fills five commercial P&C insurance portals from a single risk profile. WXT, React 19, Cloudflare Workers, Neon.
 - **[POA Architect](https://chromewebstore.google.com/detail/poa-architect/kmjbpdmhihmpjdekkngeebmginokofdn?authuser=0&hl=en)** — walks Amazon sellers through reinstatement appeals.
 - **[OneReply — AI Email Replies for Gmail](https://chromewebstore.google.com/detail/onereply-%E2%80%94-ai-email-repli/noiajpemkfbhgghgpfafomdiahlmlkci?authuser=0&hl=en)** — drafts email replies inside Gmail.
 - **[JobSafe](https://chromewebstore.google.com/detail/jobsafe/kefmohdijppkijhddolldplkdpcoidkc?authuser=0&hl=en)** — flags job scams on LinkedIn, Indeed, and Glassdoor.
